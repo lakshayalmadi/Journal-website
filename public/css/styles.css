@@ -18,22 +18,23 @@ body{
 .navbar-nav  li a:hover {
     color: #00adb5 !important;
 }
-
-.footer-padding {
-	padding-bottom: 60px;
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #474d57;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    text-align: center;
 }
-
-.footer {
-	position: relative;
-	text-align: center;
-	width: 100%;
-	height: 60px;
-	background-color: #474d57;
-}
-
-.footer p {
-	margin-top: 25px;
-	font-size: 12px;
+footer p{
     color: #fff;
-    padding-top: 20px;
+    margin-top: 20x;
+}
+i{
+    color: #fff;
+    padding: 10px;
+}
+i:hover{
+    color:#00adb5;
 }
