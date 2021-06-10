@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Indie+Flower&family=Itim&family=Patrick+Hand&display=swap');
+
 body{
-    background-color: #eeeeee;
+    background-color: #a7c4bc;
 }
 .container-fluid {
     padding-top: 70px;
@@ -13,16 +15,29 @@ body{
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    background-color: #474d57;
+    background-color: #2f5d62;
+}
+.navbar-nav{
+    color: white!important;
 }
 .navbar-nav  li a:hover {
     color: #00adb5 !important;
+}
+
+.posts-text{
+    margin-top: 20px;
+    background-color: #dfeeea;
+    padding: 10px 20px;  
+    color:#39574e;
+}
+a{
+    color:rgb(255, 59, 59);
 }
 footer{
     position: fixed;
     bottom: 0;
     right:0;
-    background-color: #474d57;
+    background-color: #2f5d62;
     width: 100%;
     height: 80px;
     left: 0;
