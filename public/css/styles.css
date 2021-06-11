@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Indie+Flower&family=Itim&family=Patrick+Hand&display=swap');
-
 body{
     background-color: #a7c4bc;
 }
@@ -17,7 +15,6 @@ body{
     letter-spacing: 5px;
     background-color: #2f5d62;
 }
-.navbar-nav li{
 .navbar-brand {
     color: white!important;
 }
