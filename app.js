@@ -79,10 +79,6 @@ app.get("/compose", function(req, res){
   res.render("compose");
 });
 
-<<<<<<< HEAD
 app.listen(process.env.PORT || 3000, function() {
-=======
-app.listen(3000, function() {
->>>>>>> bdda5a6da760b29eb84f48d504d81f47956a23c5
   console.log("Server started on port 3000");
 });
