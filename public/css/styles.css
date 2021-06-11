@@ -17,7 +17,7 @@ body{
     letter-spacing: 5px;
     background-color: #2f5d62;
 }
-.navbar-nav{
+.navbar-nav li{
     color: white!important;
 }
 .navbar-nav  li a:hover {
