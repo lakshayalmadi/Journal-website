@@ -15,7 +15,11 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
+<<<<<<< HEAD
 mongoose.connect('mongodb+srv://admin-lakshay:Test12@cluster0.wbkxf.mongodb.net/blogDB', {useNewUrlParser: true, useUnifiedTopology: true});
+=======
+mongoose.connect('mongodb://localhost:27017/blogDB', {useNewUrlParser: true, useUnifiedTopology: true});
+>>>>>>> bdda5a6da760b29eb84f48d504d81f47956a23c5
 
 const postSchema = {
   title: String,
@@ -75,6 +79,10 @@ app.get("/compose", function(req, res){
   res.render("compose");
 });
 
+<<<<<<< HEAD
 app.listen(process.env.PORT || 3000, function() {
+=======
+app.listen(3000, function() {
+>>>>>>> bdda5a6da760b29eb84f48d504d81f47956a23c5
   console.log("Server started on port 3000");
 });

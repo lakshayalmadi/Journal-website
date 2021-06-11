@@ -17,7 +17,14 @@ body{
     letter-spacing: 5px;
     background-color: #2f5d62;
 }
+<<<<<<< HEAD
 .navbar-nav li{
+=======
+.navbar-brand {
+    color: white!important;
+}
+.navbar-nav li a{
+>>>>>>> bdda5a6da760b29eb84f48d504d81f47956a23c5
     color: white!important;
 }
 .navbar-nav  li a:hover {
@@ -29,6 +36,10 @@ body{
     background-color: #dfeeea;
     padding: 10px 20px;  
     color:#39574e;
+<<<<<<< HEAD
+=======
+    margin-bottom: 150px;
+>>>>>>> bdda5a6da760b29eb84f48d504d81f47956a23c5
 }
 a{
     color:rgb(255, 59, 59);
